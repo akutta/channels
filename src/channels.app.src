@@ -1,0 +1,12 @@
+{application, channels,
+  [
+    {description, "ets registry for pids"},
+    {vsn, "git"},
+{registered, []},
+{applications, [
+kernel,
+stdlib
+]},
+{mod, {channels_app, []}},
+{env, []}
+]}.
